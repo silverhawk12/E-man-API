@@ -10,10 +10,10 @@ E-man interview task
 
 # Endpoints:
 
-* post 'user/create' expects json {"email":"user@email","password":"userpass"} returns json
+* POST 'user/create' expects json {"email":"user@email","password":"userpass"} returns json
 
-* post 'location/{user_id}' expects json {"lat":"latitude","long":"longitude"} returns json
+* POST 'location/{user_id}' expects json {"lat":"latitude","long":"longitude"} returns json
 
-* post 'version' expects json {"version":"versionNumber"} returns json
+* POST 'version' expects json {"version":"versionNumber"} returns json
 
-*get 'version' expects param "version=userAppVersion" returns json
+* GET 'version' expects param "version=userAppVersion" returns json
