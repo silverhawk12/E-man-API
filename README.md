@@ -18,5 +18,5 @@ E-man interview task
 * POST '/api/version' expects json {"version":"versionNumber"} returns json<br>
     /adds new api version which is considered to be latest/
 
-* GET '/api/version' expects param "version=userAppVersion" returns json<br>
+* GET '/api/version' expects param "version=userAppVersion" or json {"version":"versionNumber"} returns json<br>
     /checks if userAppVersion needs to be updated, current example version is <strong>1.03.45</strong> /
