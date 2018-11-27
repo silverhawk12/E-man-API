@@ -20,7 +20,7 @@ class VersionController extends Controller
      public function isUpToDate(VersionRequest $request) 
     {
          $userVersion = $request->validated();
-         $latestVersion = Version::latest('datetime')->first();
+         $latestVersion = Version::latest('created_at')->first();
          $needUpdate = $this->compareVersions($userVersion['version'], $latestVersion->version);
          return response()->json(["update" => $needUpdate], 200);
     }
