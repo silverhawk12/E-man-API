@@ -19,4 +19,4 @@ E-man interview task
     /adds new api version which is considered to be latest/
 
 * GET '/api/version' expects param "version=userAppVersion" returns json<br>
-    /checks if userAppVersion needs to be updated/
+    /checks if userAppVersion needs to be updated, current example version is <strong>1.03.45</strong> /
